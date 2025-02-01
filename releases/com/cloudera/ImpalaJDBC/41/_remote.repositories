@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Sat Feb 01 20:05:13 KST 2025
+ImpalaJDBC-41.jar>=
+ImpalaJDBC-41.pom>=
