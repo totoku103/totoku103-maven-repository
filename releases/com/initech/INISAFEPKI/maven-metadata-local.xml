@@ -3,10 +3,11 @@
   <groupId>com.initech</groupId>
   <artifactId>INISAFEPKI</artifactId>
   <versioning>
-    <release>1.1.50</release>
+    <release>1.1.22</release>
     <versions>
       <version>1.1.50</version>
+      <version>1.1.22</version>
     </versions>
-    <lastUpdated>20250201102644</lastUpdated>
+    <lastUpdated>20250201112754</lastUpdated>
   </versioning>
 </metadata>
