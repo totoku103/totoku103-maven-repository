@@ -13,3 +13,15 @@ mvn install:install-file \
 
 # Reference
 http://maven.apache.org/plugins/maven-install-plugin/usage.html
+
+
+``` xml
+pom.xml
+
+<repositories>
+    <repository>
+        <id>totoku103-repo-snapshot</id>
+        <url>https://github.com/totoku103/totoku103-maven-repository/raw/main/releases</url>
+    </repository>
+</repositories>
+```
