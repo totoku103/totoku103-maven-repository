@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.tmax</groupId>
+  <artifactId>tibero-jdbc</artifactId>
+  <versioning>
+    <release>6.0.166454</release>
+    <versions>
+      <version>6.0.166454</version>
+    </versions>
+    <lastUpdated>20250829024235</lastUpdated>
+  </versioning>
+</metadata>
