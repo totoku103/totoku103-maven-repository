@@ -1,0 +1,92 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.totoku103",
+    "module": "crypto",
+    "version": "1.0.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.6.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.apache.commons",
+          "module": "commons-math3",
+          "version": {
+            "requires": "3.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-1.0.5.jar",
+          "url": "crypto-1.0.5.jar",
+          "size": 104538,
+          "sha512": "4ebf05d2780228e26d7e3fad71f436d81a8615a00ebe3f80de6660e5ff052e6f2a364b9a787ba28c4eec2e3c45fd08474f25aa1e4d0af02140104f881597a51b",
+          "sha256": "c14a551436389b15c5849235e37dbd4588d6d42e3dc1e5de290632017201f680",
+          "sha1": "8b503b40fed305b6c0c8cae8188e42a671f6a175",
+          "md5": "540db3c2eedc94e9f62d69bd733f4a4a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "33.4.5-jre"
+          }
+        },
+        {
+          "group": "org.bouncycastle",
+          "module": "bcprov-jdk18on",
+          "version": {
+            "requires": "1.81"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-math3",
+          "version": {
+            "requires": "3.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-1.0.5.jar",
+          "url": "crypto-1.0.5.jar",
+          "size": 104538,
+          "sha512": "4ebf05d2780228e26d7e3fad71f436d81a8615a00ebe3f80de6660e5ff052e6f2a364b9a787ba28c4eec2e3c45fd08474f25aa1e4d0af02140104f881597a51b",
+          "sha256": "c14a551436389b15c5849235e37dbd4588d6d42e3dc1e5de290632017201f680",
+          "sha1": "8b503b40fed305b6c0c8cae8188e42a671f6a175",
+          "md5": "540db3c2eedc94e9f62d69bd733f4a4a"
+        }
+      ]
+    }
+  ]
+}
